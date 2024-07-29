@@ -1,0 +1,17 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fish Market Prediction</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Fish Market Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="length">Length:</label>
+        <input type="text" id="length" name="length"><br>
+        <!-- Add other input fields as needed -->
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
